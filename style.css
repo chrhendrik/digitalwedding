@@ -104,6 +104,20 @@ body {
   color: #666;
 }
 
+.home .couple {
+  margin-top: 100px;
+}
+
+.home .couple h3 {
+  font-family: "Tangerine";
+  font-size: 2rem;
+  color: var(--pink);
+}
+
+.home .couple img {
+  width: 100%;
+}
+
 /* Media Query */
 /* laptop */
 @media (max-width: 992px) {
