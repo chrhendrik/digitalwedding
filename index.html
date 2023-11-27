@@ -13,15 +13,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Work+Sans:wght@100;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&family=Work+Sans:wght@100;200;300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <!-- simplyCountdown-->
     <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
     <script src="countdown/simplyCountdown.min.js"></script>
 
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <section
       id="hero"
@@ -83,7 +90,7 @@
         <div class="row justify-content-center">
           <div class="col-md-8 text-center">
             <h2>Acara Pernikahan</h2>
-            <h3>Diselenggarakan pada 31 Desember 2024 di Jakarta</h3>
+            <h3>Diselenggarakan pada 29 Desember 2024 di Jakarta</h3>
             <p>
               Oleh karena itu, dengan segala hormat, kami bermaksud untuk
               mengundang Bapak/Ibu. Saudara/i, untuk hadir pada acara pernikahan
@@ -115,7 +122,7 @@
               </div>
             </div>
           </div>
-
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
           <div class="col-lg-6">
             <div class="row">
               <div class="col-4">
@@ -143,6 +150,72 @@
       </div>
     </section>
 
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Balai Kartini <br />Jl. Gatot Subroto No.6, RT.6/RW.3,
+              Kuningan, East Kuningan, Setiabudi.
+            </p>
+            <a
+              href="https://maps.app.goo.gl/sUVGTsnT5VnhyJ4X7"
+              target="_blank"
+              class="btn btn-light btn-sm my-3"
+              >Klik untuk membuka maps</a
+            >
+            <p class="description">
+              Diharapkan untuk hadir sesuai waktu, serta tidak salah alamat dan
+              tanggal.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-4">
+              <div class="card-header">Akad</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span class="tanggal">08:00 - 10:00</span>
+                  </div>
+                  <div class="col-6">
+                    <i class="bi bi-calendar2-date d-block"></i>
+                    <span class="tanggal">Minggu, 29 Desember 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span class="tanggal">11:00 - 22:00</span>
+                  </div>
+                  <div class="col-6">
+                    <i class="bi bi-calendar2-date d-block"></i>
+                    <span class="tanggal">Minggu, 29 Desember 2024</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                Saat acara akad diharapkan untuk kondusif
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -152,7 +225,7 @@
       simplyCountdown(".simply-countdown", {
         year: 2024, // required
         month: 12, // required
-        day: 31, // required
+        day: 29, // required
         hours: 0, // Default is 0 [0-23] integer
         minutes: 0, // Default is 0 [0-59] integer
         seconds: 0, // Default is 0 [0-59] integer
