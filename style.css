@@ -409,7 +409,7 @@ body {
   }
 
   .timeline li .timeline-panel {
-    width: 60%;
+    width: 40%;
     transform: translateX(-20px);
   }
 
